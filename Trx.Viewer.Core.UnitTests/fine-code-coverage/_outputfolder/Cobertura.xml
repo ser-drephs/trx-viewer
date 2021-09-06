@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.7905759162303665" branch-rate="0.875" lines-covered="151" lines-valid="191" branches-covered="56" branches-valid="64" complexity="94" version="0" timestamp="1608570363">
+  <sources>
+    <source>D:\source\trx-viewer\Trx.Viewer.Core\</source>
+  </sources>
+  <packages>
+    <package name="Trx.Viewer.Core" line-rate="0.7905759162303665" branch-rate="0.875" complexity="94">
+      <classes>
+        <class name="Trx.Viewer.Core.Business.Trx.Exception.TrxSchemaValidationException" filename="D:\source\trx-viewer\Trx.Viewer.Core\Business\Trx\Exception\TrxSchemaValidationException.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Trx.Viewer.Core.Business.Trx.TrxResultFileReader" filename="D:\source\trx-viewer\Trx.Viewer.Core\Business\Trx\TrxResultFileReader.cs" line-rate="0.8079470198675497" branch-rate="0.8571428571428571" complexity="63">
+          <methods>
+            <method name="get_FileSystem" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="13" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Logger" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="69" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Localizer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="13" branch="false" />
+              </lines>
+            </method>
+            <method name="get_XmlDocument" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="137" branch="false" />
+              </lines>
+            </method>
+            <method name="Read" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="8" branch="false" />
+                <line number="38" hits="8" branch="false" />
+                <line number="39" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="Read" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="42" hits="4" branch="false" />
+                <line number="43" hits="4" branch="false" />
+                <line number="44" hits="32" branch="true" condition-coverage="100% (2/2)" />
+                <line number="45" hits="10" branch="false" />
+                <line number="47" hits="10" branch="false" />
+                <line number="48" hits="10" branch="false" />
+                <line number="49" hits="10" branch="false" />
+                <line number="50" hits="5" branch="false" />
+                <line number="51" hits="5" branch="false" />
+                <line number="52" hits="5" branch="false" />
+                <line number="53" hits="10" branch="false" />
+                <line number="54" hits="4" branch="false" />
+                <line number="55" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="Validate" signature="(...)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="71" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+                <line number="73" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Validate" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="false" />
+                <line number="78" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="79" hits="0" branch="false" />
+                <line number="80" hits="0" branch="false" />
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ValidationError" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="false" />
+                <line number="89" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="SetXmlNamespaceManager" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="93" hits="11" branch="false" />
+                <line number="94" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="95" hits="9" branch="false" />
+                <line number="96" hits="9" branch="false" />
+                <line number="97" hits="9" branch="false" />
+                <line number="99" hits="9" branch="false" />
+                <line number="100" hits="9" branch="false" />
+                <line number="101" hits="9" branch="false" />
+                <line number="102" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name="ReadFile" signature="(...)" line-rate="1" branch-rate="0.875" complexity="16">
+              <lines>
+                <line number="105" hits="18" branch="false" />
+                <line number="106" hits="23" branch="true" condition-coverage="100% (2/2)" />
+                <line number="107" hits="15" branch="true" condition-coverage="100% (2/2)" />
+                <line number="111" hits="11" branch="false" />
+                <line number="112" hits="11" branch="false" />
+                <line number="113" hits="11" branch="false" />
+                <line number="115" hits="11" branch="false" />
+                <line number="116" hits="111" branch="true" condition-coverage="100% (2/2)" />
+                <line number="117" hits="39" branch="false" />
+                <line number="118" hits="39" branch="false" />
+                <line number="119" hits="39" branch="false" />
+                <line number="121" hits="11" branch="false" />
+                <line number="123" hits="60" branch="true" condition-coverage="100% (2/2)" />
+                <line number="124" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="125" hits="5" branch="false" />
+                <line number="127" hits="36" branch="true" condition-coverage="100% (2/2)" />
+                <line number="128" hits="5" branch="false" />
+                <line number="131" hits="10" branch="false" />
+                <line number="132" hits="36" branch="true" condition-coverage="50% (2/4)" />
+                <line number="133" hits="10" branch="false" />
+                <line number="134" hits="10" branch="false" />
+                <line number="135" hits="5" branch="false" />
+                <line number="136" hits="5" branch="false" />
+                <line number="137" hits="5" branch="false" />
+                <line number="139" hits="6" branch="false" />
+                <line number="140" hits="6" branch="false" />
+                <line number="141" hits="6" branch="false" />
+                <line number="142" hits="11" branch="false" />
+                <line number="143" hits="11" branch="false" />
+                <line number="144" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name="GetTrxTestResultFromXmlNode" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="149" hits="39" branch="false" />
+                <line number="151" hits="39" branch="false" />
+                <line number="153" hits="39" branch="false" />
+                <line number="154" hits="39" branch="false" />
+                <line number="155" hits="39" branch="false" />
+                <line number="156" hits="39" branch="false" />
+                <line number="157" hits="39" branch="false" />
+                <line number="158" hits="39" branch="false" />
+                <line number="159" hits="39" branch="false" />
+                <line number="160" hits="39" branch="false" />
+                <line number="161" hits="39" branch="false" />
+                <line number="162" hits="39" branch="false" />
+                <line number="163" hits="39" branch="false" />
+                <line number="164" hits="39" branch="false" />
+                <line number="166" hits="37" branch="false" />
+                <line number="167" hits="37" branch="false" />
+                <line number="168" hits="37" branch="false" />
+                <line number="170" hits="37" branch="true" condition-coverage="100% (4/4)" />
+                <line number="171" hits="26" branch="false" />
+                <line number="172" hits="26" branch="false" />
+                <line number="173" hits="26" branch="true" condition-coverage="100% (4/4)" />
+                <line number="174" hits="20" branch="false" />
+                <line number="175" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="176" hits="23" branch="false" />
+                <line number="177" hits="26" branch="false" />
+                <line number="178" hits="37" branch="false" />
+                <line number="179" hits="37" branch="false" />
+                <line number="181" hits="2" branch="false" />
+                <line number="182" hits="2" branch="false" />
+                <line number="183" hits="2" branch="false" />
+                <line number="184" hits="2" branch="false" />
+                <line number="186" hits="39" branch="false" />
+              </lines>
+            </method>
+            <method name="GetUnitTestResultsFromXmlDocument" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="189" hits="11" branch="false" />
+                <line number="190" hits="31" branch="true" condition-coverage="100% (2/2)" />
+                <line number="191" hits="2" branch="false" />
+                <line number="192" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name="GetTestClassNameFromXmlDocument" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="195" hits="37" branch="false" />
+                <line number="197" hits="142" branch="true" condition-coverage="100% (2/2)" />
+                <line number="198" hits="6" branch="false" />
+                <line number="199" hits="37" branch="false" />
+                <line number="200" hits="37" branch="false" />
+              </lines>
+            </method>
+            <method name="GetTestListNameFromXmlDocument" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="203" hits="37" branch="false" />
+                <line number="205" hits="142" branch="true" condition-coverage="100% (2/2)" />
+                <line number="206" hits="6" branch="false" />
+                <line number="207" hits="37" branch="false" />
+                <line number="208" hits="37" branch="false" />
+              </lines>
+            </method>
+            <method name="GetTestErrorInfoFromXmlNode" signature="(...)" line-rate="1" branch-rate="1" complexity="14">
+              <lines>
+                <line number="211" hits="37" branch="false" />
+                <line number="212" hits="48" branch="true" condition-coverage="100% (2/2)" />
+                <line number="216" hits="101" branch="true" condition-coverage="100% (4/4)" />
+                <line number="217" hits="3" branch="false" />
+                <line number="221" hits="101" branch="true" condition-coverage="100% (4/4)" />
+                <line number="222" hits="3" branch="false" />
+                <line number="224" hits="28" branch="true" condition-coverage="100% (4/4)" />
+                <line number="226" hits="24" branch="false" />
+                <line number="227" hits="37" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="12" branch="false" />
+                <line number="23" hits="12" branch="false" />
+                <line number="24" hits="12" branch="false" />
+                <line number="25" hits="12" branch="false" />
+                <line number="26" hits="12" branch="false" />
+                <line number="27" hits="12" branch="false" />
+                <line number="28" hits="12" branch="false" />
+                <line number="29" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="12" branch="false" />
+            <line number="23" hits="12" branch="false" />
+            <line number="24" hits="12" branch="false" />
+            <line number="25" hits="12" branch="false" />
+            <line number="26" hits="12" branch="false" />
+            <line number="27" hits="12" branch="false" />
+            <line number="28" hits="12" branch="false" />
+            <line number="29" hits="12" branch="false" />
+            <line number="31" hits="13" branch="false" />
+            <line number="32" hits="69" branch="false" />
+            <line number="33" hits="13" branch="false" />
+            <line number="34" hits="137" branch="false" />
+            <line number="37" hits="8" branch="false" />
+            <line number="38" hits="8" branch="false" />
+            <line number="39" hits="6" branch="false" />
+            <line number="42" hits="4" branch="false" />
+            <line number="43" hits="4" branch="false" />
+            <line number="44" hits="32" branch="true" condition-coverage="100% (2/2)" />
+            <line number="45" hits="10" branch="false" />
+            <line number="47" hits="10" branch="false" />
+            <line number="48" hits="10" branch="false" />
+            <line number="49" hits="10" branch="false" />
+            <line number="50" hits="5" branch="false" />
+            <line number="51" hits="5" branch="false" />
+            <line number="52" hits="5" branch="false" />
+            <line number="53" hits="10" branch="false" />
+            <line number="54" hits="4" branch="false" />
+            <line number="55" hits="4" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="false" />
+            <line number="78" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="79" hits="0" branch="false" />
+            <line number="80" hits="0" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="false" />
+            <line number="89" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+            <line number="93" hits="11" branch="false" />
+            <line number="94" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="95" hits="9" branch="false" />
+            <line number="96" hits="9" branch="false" />
+            <line number="97" hits="9" branch="false" />
+            <line number="99" hits="9" branch="false" />
+            <line number="100" hits="9" branch="false" />
+            <line number="101" hits="9" branch="false" />
+            <line number="102" hits="11" branch="false" />
+            <line number="105" hits="18" branch="false" />
+            <line number="106" hits="23" branch="true" condition-coverage="100% (2/2)" />
+            <line number="107" hits="15" branch="true" condition-coverage="100% (2/2)" />
+            <line number="111" hits="11" branch="false" />
+            <line number="112" hits="11" branch="false" />
+            <line number="113" hits="11" branch="false" />
+            <line number="115" hits="11" branch="false" />
+            <line number="116" hits="111" branch="true" condition-coverage="100% (2/2)" />
+            <line number="117" hits="39" branch="false" />
+            <line number="118" hits="39" branch="false" />
+            <line number="119" hits="39" branch="false" />
+            <line number="121" hits="11" branch="false" />
+            <line number="123" hits="60" branch="true" condition-coverage="100% (2/2)" />
+            <line number="124" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="125" hits="5" branch="false" />
+            <line number="127" hits="36" branch="true" condition-coverage="100% (2/2)" />
+            <line number="128" hits="5" branch="false" />
+            <line number="131" hits="10" branch="false" />
+            <line number="132" hits="36" branch="true" condition-coverage="50% (2/4)" />
+            <line number="133" hits="10" branch="false" />
+            <line number="134" hits="10" branch="false" />
+            <line number="135" hits="5" branch="false" />
+            <line number="136" hits="5" branch="false" />
+            <line number="137" hits="5" branch="false" />
+            <line number="139" hits="6" branch="false" />
+            <line number="140" hits="6" branch="false" />
+            <line number="141" hits="6" branch="false" />
+            <line number="142" hits="11" branch="false" />
+            <line number="143" hits="11" branch="false" />
+            <line number="144" hits="11" branch="false" />
+            <line number="149" hits="39" branch="false" />
+            <line number="151" hits="39" branch="false" />
+            <line number="153" hits="39" branch="false" />
+            <line number="154" hits="39" branch="false" />
+            <line number="155" hits="39" branch="false" />
+            <line number="156" hits="39" branch="false" />
+            <line number="157" hits="39" branch="false" />
+            <line number="158" hits="39" branch="false" />
+            <line number="159" hits="39" branch="false" />
+            <line number="160" hits="39" branch="false" />
+            <line number="161" hits="39" branch="false" />
+            <line number="162" hits="39" branch="false" />
+            <line number="163" hits="39" branch="false" />
+            <line number="164" hits="39" branch="false" />
+            <line number="166" hits="37" branch="false" />
+            <line number="167" hits="37" branch="false" />
+            <line number="168" hits="37" branch="false" />
+            <line number="170" hits="37" branch="true" condition-coverage="100% (4/4)" />
+            <line number="171" hits="26" branch="false" />
+            <line number="172" hits="26" branch="false" />
+            <line number="173" hits="26" branch="true" condition-coverage="100% (4/4)" />
+            <line number="174" hits="20" branch="false" />
+            <line number="175" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="176" hits="23" branch="false" />
+            <line number="177" hits="26" branch="false" />
+            <line number="178" hits="37" branch="false" />
+            <line number="179" hits="37" branch="false" />
+            <line number="181" hits="2" branch="false" />
+            <line number="182" hits="2" branch="false" />
+            <line number="183" hits="2" branch="false" />
+            <line number="184" hits="2" branch="false" />
+            <line number="186" hits="39" branch="false" />
+            <line number="189" hits="11" branch="false" />
+            <line number="190" hits="31" branch="true" condition-coverage="100% (2/2)" />
+            <line number="191" hits="2" branch="false" />
+            <line number="192" hits="11" branch="false" />
+            <line number="195" hits="37" branch="false" />
+            <line number="197" hits="142" branch="true" condition-coverage="100% (2/2)" />
+            <line number="198" hits="6" branch="false" />
+            <line number="199" hits="37" branch="false" />
+            <line number="200" hits="37" branch="false" />
+            <line number="203" hits="37" branch="false" />
+            <line number="205" hits="142" branch="true" condition-coverage="100% (2/2)" />
+            <line number="206" hits="6" branch="false" />
+            <line number="207" hits="37" branch="false" />
+            <line number="208" hits="37" branch="false" />
+            <line number="211" hits="37" branch="false" />
+            <line number="212" hits="48" branch="true" condition-coverage="100% (2/2)" />
+            <line number="216" hits="101" branch="true" condition-coverage="100% (4/4)" />
+            <line number="217" hits="3" branch="false" />
+            <line number="221" hits="101" branch="true" condition-coverage="100% (4/4)" />
+            <line number="222" hits="3" branch="false" />
+            <line number="224" hits="28" branch="true" condition-coverage="100% (4/4)" />
+            <line number="226" hits="24" branch="false" />
+            <line number="227" hits="37" branch="false" />
+          </lines>
+        </class>
+        <class name="Trx.Viewer.Core.Business.Trx.TrxResultFileReaderExtensions" filename="D:\source\trx-viewer\Trx.Viewer.Core\Business\Trx\TrxResultFileReaderExtensions.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="ParseEnumFromXmlNode" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="63" branch="false" />
+                <line number="10" hits="63" branch="false" />
+                <line number="11" hits="63" branch="true" condition-coverage="100% (2/2)" />
+                <line number="12" hits="60" branch="false" />
+              </lines>
+            </method>
+            <method name="TryParseEnumFromXmlNode" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="26" branch="false" />
+                <line number="16" hits="26" branch="false" />
+                <line number="18" hits="26" branch="false" />
+                <line number="19" hits="26" branch="false" />
+                <line number="20" hits="23" branch="false" />
+                <line number="21" hits="9" branch="false" />
+                <line number="22" hits="26" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="63" branch="false" />
+            <line number="10" hits="63" branch="false" />
+            <line number="11" hits="63" branch="true" condition-coverage="100% (2/2)" />
+            <line number="12" hits="60" branch="false" />
+            <line number="15" hits="26" branch="false" />
+            <line number="16" hits="26" branch="false" />
+            <line number="18" hits="26" branch="false" />
+            <line number="19" hits="26" branch="false" />
+            <line number="20" hits="23" branch="false" />
+            <line number="21" hits="9" branch="false" />
+            <line number="22" hits="26" branch="false" />
+          </lines>
+        </class>
+        <class name="Trx.Viewer.Core.Domain.TestErrorInfo" filename="D:\source\trx-viewer\Trx.Viewer.Core\Domain\TestErrorInfo.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="get_StackTrace" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="28" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="11" hits="27" branch="false" />
+                <line number="12" hits="27" branch="true" condition-coverage="100% (2/2)" />
+                <line number="13" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="14" hits="25" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="30" branch="false" />
+            <line number="8" hits="28" branch="false" />
+            <line number="11" hits="27" branch="false" />
+            <line number="12" hits="27" branch="true" condition-coverage="100% (2/2)" />
+            <line number="13" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="14" hits="25" branch="false" />
+          </lines>
+        </class>
+        <class name="Trx.Viewer.Core.Domain.TrxTestResult" filename="D:\source\trx-viewer\Trx.Viewer.Core\Domain\TrxTestResult.cs" line-rate="0.631578947368421" branch-rate="1" complexity="18">
+          <methods>
+            <method name="get_ExecutionId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="131" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TestId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="74" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TestName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ComputerName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Duration" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_StartTime" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_EndTime" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Outcome" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="43" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TestListId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="74" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TestListName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_TestClass" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ParentExecutionId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="189" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DataRowInfo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="24" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ResultType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="28" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ErrorInfo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="41" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Children" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="16" branch="false" />
+              </lines>
+            </method>
+            <method name="HasChildren" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="28" hits="3" branch="false" />
+                <line number="29" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="30" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="131" branch="false" />
+            <line number="11" hits="74" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="43" branch="false" />
+            <line number="18" hits="74" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="189" branch="false" />
+            <line number="22" hits="24" branch="false" />
+            <line number="23" hits="28" branch="false" />
+            <line number="24" hits="41" branch="false" />
+            <line number="25" hits="16" branch="false" />
+            <line number="28" hits="3" branch="false" />
+            <line number="29" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="30" hits="3" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

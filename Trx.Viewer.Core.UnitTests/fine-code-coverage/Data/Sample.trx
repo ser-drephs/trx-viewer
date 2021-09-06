@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="60d670a9-e403-42cc-9c9d-6ae4f1afbc0c" name="x@dev 2020-10-30 20:34:27" runUser="dev\x" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-10-30T20:34:27.8514442+01:00" queuing="2020-10-30T20:34:27.8514453+01:00" start="2020-10-30T20:34:26.6780735+01:00" finish="2020-10-30T20:34:28.1233905+01:00" />
+  <TestSettings name="default" id="44186008-3ae1-4798-935c-15fb81ae2c65">
+    <Deployment runDeploymentRoot="x_dev_2020-10-30_20_34_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8e084df1-a0e2-4d63-9096-a0818801e2c1" testId="3da3570c-b73f-2c00-1833-5a9c9b9682ee" testName="Map_Domain_Object_With_Partial_Values_To_Entity" computerName="dev" duration="00:00:00.0020031" startTime="2020-10-30T20:34:27.7082649+01:00" endTime="2020-10-30T20:34:27.7104040+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e084df1-a0e2-4d63-9096-a0818801e2c1" />
+    <UnitTestResult executionId="90d503cf-e71f-4fde-8b37-0c85e872217a" testId="a675fb99-55f1-c2ee-d54d-b7b966b756df" testName="EqualOp_Test" computerName="dev" duration="00:00:00.0001947" startTime="2020-10-30T20:34:28.0039395+01:00" endTime="2020-10-30T20:34:28.0045340+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90d503cf-e71f-4fde-8b37-0c85e872217a" />
+    <UnitTestResult executionId="2974b910-10ff-446a-97a2-e2f0a82d1f85" testId="ee6b2e84-bd99-09ae-eedd-889671a5b491" testName="GetTime_Seperated_By_Doubledot" computerName="dev" duration="00:00:00.0336491" startTime="2020-10-30T20:34:27.7786836+01:00" endTime="2020-10-30T20:34:27.8133355+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2974b910-10ff-446a-97a2-e2f0a82d1f85">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. </Message>
+          <StackTrace>   at Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests.GetTime_Seperated_By_Doubledot() in c\WorkTimes\WorkTimeTests.cs:line 33&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea3827e6-d478-4feb-944f-86485b6f4c70" testId="0a36b23e-db71-7dc6-a587-ee88e03d892e" testName="Map_Domain_Object_With_All_Values_To_Entity" computerName="dev" duration="00:00:00.0029236" startTime="2020-10-30T20:34:27.7050853+01:00" endTime="2020-10-30T20:34:27.7082325+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea3827e6-d478-4feb-944f-86485b6f4c70" />
+    <UnitTestResult executionId="16d0a796-10a6-45ca-bad5-87e02ea1913d" testId="86be059c-96c2-32d8-6e2d-b2a9d3c71faf" testName="Map_Entity_List_To_Domain" computerName="dev" duration="00:00:00.0060536" startTime="2020-10-30T20:34:27.7698960+01:00" endTime="2020-10-30T20:34:27.7761770+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16d0a796-10a6-45ca-bad5-87e02ea1913d" />
+    <UnitTestResult executionId="41e7c4f0-3bb4-4e85-91c4-5042fae6e2c7" testId="8fb5c045-1301-a099-6103-1ba2daee9f16" testName="Create_Without_TaskId_Exception" computerName="dev" duration="00:00:00.0006639" startTime="2020-10-30T20:34:27.9843377+01:00" endTime="2020-10-30T20:34:27.9851204+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41e7c4f0-3bb4-4e85-91c4-5042fae6e2c7" />
+    <UnitTestResult executionId="8db74550-3925-4d52-aba3-ef3609640cd6" testId="37af4565-7c03-1a06-89bc-aeadb84b05f7" testName="Start_Work" computerName="dev" duration="00:00:00.0008983" startTime="2020-10-30T20:34:27.8148966+01:00" endTime="2020-10-30T20:34:27.8161069+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8db74550-3925-4d52-aba3-ef3609640cd6" />
+    <UnitTestResult executionId="0c9515c9-3032-4e1b-917f-cf53fa983cd8" testId="9d95d716-fce8-a379-cc04-bb0fe4800d0b" testName="EqualOp_Test" computerName="dev" duration="00:00:00.0004944" startTime="2020-10-30T20:34:27.9817067+01:00" endTime="2020-10-30T20:34:27.9823207+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c9515c9-3032-4e1b-917f-cf53fa983cd8" />
+    <UnitTestResult executionId="0114020c-6088-4e1e-8999-9c15e8a52592" testId="11db1ea8-34ae-b3de-5ada-9009b6f6c43b" testName="UnequalOp_Test" computerName="dev" duration="00:00:00.0003840" startTime="2020-10-30T20:34:28.0101157+01:00" endTime="2020-10-30T20:34:28.0106743+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0114020c-6088-4e1e-8999-9c15e8a52592" />
+    <UnitTestResult executionId="081a4a36-e3e9-4592-81de-58caab58763c" testId="f026cb1e-b680-4f06-547c-f7c4b195726f" testName="Compare_Test" computerName="dev" duration="00:00:00.0297147" startTime="2020-10-30T20:34:27.8258916+01:00" endTime="2020-10-30T20:34:27.8557397+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="081a4a36-e3e9-4592-81de-58caab58763c" />
+    <UnitTestResult executionId="92d59a9c-03b0-4f9c-9eaa-52821f93ac8d" testId="70d69027-81b3-e89e-59b6-fb45ea75deab" testName="UnequalOp_Test" computerName="dev" duration="00:00:00.0004020" startTime="2020-10-30T20:34:27.9823422+01:00" endTime="2020-10-30T20:34:27.9828382+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92d59a9c-03b0-4f9c-9eaa-52821f93ac8d" />
+    <UnitTestResult executionId="02214618-670c-4f4f-b9e2-5ab96029d8b7" testId="70f6c07f-5d73-c3ad-c4a2-4f2c6fd8f556" testName="Map_Domain_List_To_Entity" computerName="dev" duration="00:00:00.0057232" startTime="2020-10-30T20:34:27.6797900+01:00" endTime="2020-10-30T20:34:27.6856337+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02214618-670c-4f4f-b9e2-5ab96029d8b7" />
+    <UnitTestResult executionId="b9b94f1f-5527-4931-bf12-d224d2820842" testId="c6a78eec-4a54-de35-c2a9-f8682c099426" testName="Compare_Other_Activity_Test" computerName="dev" duration="00:00:00.1256734" startTime="2020-10-30T20:34:27.8557793+01:00" endTime="2020-10-30T20:34:27.9816718+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9b94f1f-5527-4931-bf12-d224d2820842" />
+    <UnitTestResult executionId="ad91a46f-6b86-4539-a2a5-17f28b4fd13f" testId="2bfd9ccd-6c69-35b5-61b9-6e2363e8fefd" testName="Map_Entity_With_Partial_Values_To_Domain" computerName="dev" duration="00:00:00.0030936" startTime="2020-10-30T20:34:27.6964797+01:00" endTime="2020-10-30T20:34:27.6996971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad91a46f-6b86-4539-a2a5-17f28b4fd13f" />
+    <UnitTestResult executionId="d1f6561f-8049-4d3e-ab91-bc1d49299327" testId="1376b99c-8492-b662-a0bd-67502b72fc92" testName="Compare_WorkItemType_Difference" computerName="dev" duration="00:00:00.0009408" startTime="2020-10-30T20:34:27.9947431+01:00" endTime="2020-10-30T20:34:27.9958050+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1f6561f-8049-4d3e-ab91-bc1d49299327" />
+    <UnitTestResult executionId="90da5ecc-65b3-4947-a661-16b8e8888bda" testId="3ceac0a5-bf3a-4fd0-e83e-d5bf7aef09e4" testName="Map_Entity_List_To_Domain" computerName="dev" duration="00:00:00.0052078" startTime="2020-10-30T20:34:27.6997284+01:00" endTime="2020-10-30T20:34:27.7050527+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90da5ecc-65b3-4947-a661-16b8e8888bda" />
+    <UnitTestResult executionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testId="e944fe6c-ba81-22b1-2080-387299d4c650" testName="Compare_Test" computerName="dev" duration="00:00:00.0055684" startTime="2020-10-30T20:34:27.9968819+01:00" endTime="2020-10-30T20:34:28.0038288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56c7188d-83a6-4baa-b56e-e22c887f9940" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="2c6349d0-c8f4-4895-8329-828cf86a20c7" parentExecutionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testId="e944fe6c-ba81-22b1-2080-387299d4c650" testName="Compare_Test (12,12,True)" computerName="dev" duration="00:00:00.0021710" startTime="2020-10-30T20:34:27.9968819+01:00" endTime="2020-10-30T20:34:28.0038288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c6349d0-c8f4-4895-8329-828cf86a20c7" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+              <StackTrace>   at Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests.Compare_Test(String leftid, String rightid, Boolean equivalent) in c\WorkItems\WorkItemTests.cs:line 72&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="01ab2424-f74b-488e-963b-2a634f8abaa9" parentExecutionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testId="e944fe6c-ba81-22b1-2080-387299d4c650" testName="Compare_Test (12,13,False)" computerName="dev" duration="00:00:00.0005079" startTime="2020-10-30T20:34:27.9968819+01:00" endTime="2020-10-30T20:34:28.0038288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01ab2424-f74b-488e-963b-2a634f8abaa9" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+              <StackTrace>   at Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests.Compare_Test(String leftid, String rightid, Boolean equivalent) in c\WorkItems\WorkItemTests.cs:line 72&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="9d434eaa-88cb-4819-a03b-20741b484e1f" parentExecutionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testId="e944fe6c-ba81-22b1-2080-387299d4c650" testName="Compare_Test (13,12,True)" computerName="dev" duration="00:00:00.0004222" startTime="2020-10-30T20:34:27.9968819+01:00" endTime="2020-10-30T20:34:28.0038288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d434eaa-88cb-4819-a03b-20741b484e1f" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+              <StackTrace>   at Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests.Compare_Test(String leftid, String rightid, Boolean equivalent) in c\WorkItems\WorkItemTests.cs:line 72&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="dd6b4605-577c-4690-8f9f-fefabec3d59d" parentExecutionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testId="e944fe6c-ba81-22b1-2080-387299d4c650" testName="Compare_Test (13,13,False)" computerName="dev" duration="00:00:00.0004437" startTime="2020-10-30T20:34:27.9968819+01:00" endTime="2020-10-30T20:34:28.0038288+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd6b4605-577c-4690-8f9f-fefabec3d59d" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+              <StackTrace>   at Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests.Compare_Test(String leftid, String rightid, Boolean equivalent) in c\WorkItems\WorkItemTests.cs:line 72&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d6f9b2a-b130-4503-9494-26ef77bfd733" testId="66d60b65-a73e-2910-538e-55fdb9b3074b" testName="Map_Domain_Object_With_Partial_Values_To_Entity" computerName="dev" duration="00:00:00.0033120" startTime="2020-10-30T20:34:27.6762271+01:00" endTime="2020-10-30T20:34:27.6797328+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d6f9b2a-b130-4503-9494-26ef77bfd733" />
+    <UnitTestResult executionId="d2640654-24e7-463e-9cae-b15c69c3d163" testId="79e801a9-6f43-4cbc-76ea-1912832b6655" testName="Create_With_Two_Parameters" computerName="dev" duration="00:00:00.0007067" startTime="2020-10-30T20:34:27.9828570+01:00" endTime="2020-10-30T20:34:27.9838264+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2640654-24e7-463e-9cae-b15c69c3d163" />
+    <UnitTestResult executionId="dc978d59-e9a7-4499-b52a-28af73b9ace4" testId="7241af49-bb8d-3ffc-2b2d-703477ed9d87" testName="Map_Domain_List_To_Entity" computerName="dev" duration="00:00:00.0037240" startTime="2020-10-30T20:34:27.7104513+01:00" endTime="2020-10-30T20:34:27.7142779+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc978d59-e9a7-4499-b52a-28af73b9ace4" />
+    <UnitTestResult executionId="f23372a3-e7f2-46ef-b791-e4adfa25a4f4" testId="03951455-adfe-224f-2f6d-a95df38283e5" testName="Map_Entity_With_All_Values_To_Domain" computerName="dev" duration="00:00:00.0024581" startTime="2020-10-30T20:34:27.7645236+01:00" endTime="2020-10-30T20:34:27.7671250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f23372a3-e7f2-46ef-b791-e4adfa25a4f4" />
+    <UnitTestResult executionId="f49f496a-1e29-49b8-90ba-a698567e6d18" testId="7b2da00b-9c0e-9c43-9aa3-8144fb60e585" testName="Start_Work_With_Activity" computerName="dev" duration="00:00:00.0006205" startTime="2020-10-30T20:34:27.8161374+01:00" endTime="2020-10-30T20:34:27.8168830+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f49f496a-1e29-49b8-90ba-a698567e6d18" />
+    <UnitTestResult executionId="6142fb0b-701e-42de-a299-93648353f756" testId="0a7780b0-0631-0479-9d23-552847c6fa0a" testName="IsEmpty_Test" computerName="dev" duration="00:00:00.0009398" startTime="2020-10-30T20:34:27.9958265+01:00" endTime="2020-10-30T20:34:27.9968616+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6142fb0b-701e-42de-a299-93648353f756" />
+    <UnitTestResult executionId="547a16aa-7aae-412d-8225-51f01f6eb2b1" testId="33a2d2b2-8ee5-8a1e-c679-1cdea05cc3c7" testName="Now" computerName="dev" duration="00:00:00.0019122" startTime="2020-10-30T20:34:27.7762741+01:00" endTime="2020-10-30T20:34:27.7786541+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="547a16aa-7aae-412d-8225-51f01f6eb2b1" />
+    <UnitTestResult executionId="665bec0b-0483-4309-bcad-a101a40de0fa" testId="3dfa55a1-9fc7-9296-1a12-4b4b74c652cf" testName="Compare_TaskId_Difference" computerName="dev" duration="00:00:00.0035828" startTime="2020-10-30T20:34:27.9904810+01:00" endTime="2020-10-30T20:34:27.9946765+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="665bec0b-0483-4309-bcad-a101a40de0fa" />
+    <UnitTestResult executionId="20025dc9-edff-4735-b5d6-3a91c6479886" testId="eedb9f94-fa3a-4d52-560a-958a5ec59d87" testName="Map_Domain_Object_With_All_Values_To_Entity" computerName="dev" duration="00:00:00.1223001" startTime="2020-10-30T20:34:27.5053188+01:00" endTime="2020-10-30T20:34:27.6680230+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20025dc9-edff-4735-b5d6-3a91c6479886" />
+    <UnitTestResult executionId="cf262709-8458-4dee-8325-70711130de3a" testId="f82bc895-3bf4-7998-22c6-cc7e729aca4b" testName="Map_Entity_With_Partial_Values_To_Domain" computerName="dev" duration="00:00:00.0026045" startTime="2020-10-30T20:34:27.7671534+01:00" endTime="2020-10-30T20:34:27.7698564+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf262709-8458-4dee-8325-70711130de3a" />
+    <UnitTestResult executionId="4a926f51-b9cf-4884-a681-5c14f0dd2499" testId="6058bf8b-e23b-e2e7-2c39-f43c410bc360" testName="Map_Entity_With_All_Values_To_Domain" computerName="dev" duration="00:00:00.0106835" startTime="2020-10-30T20:34:27.6856610+01:00" endTime="2020-10-30T20:34:27.6964500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a926f51-b9cf-4884-a681-5c14f0dd2499" />
+    <UnitTestResult executionId="1ae6d0cb-f90f-4219-9d94-88db696a3529" testId="49b68f15-acc5-1eec-f53b-ec76f7acac7c" testName="Start_Work_With_Empty_WorkItem_Exception" computerName="dev" duration="00:00:00.0014574" startTime="2020-10-30T20:34:27.8235962+01:00" endTime="2020-10-30T20:34:27.8253814+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ae6d0cb-f90f-4219-9d94-88db696a3529" />
+    <UnitTestResult executionId="66674b08-ab75-4426-b8d8-0c2163954524" testId="8b53fcfa-8a18-4357-0e34-6d8cfd514115" testName="GetDate_Not_Seperated_By_Doubledot" computerName="dev" duration="00:00:00.0006043" startTime="2020-10-30T20:34:27.8133912+01:00" endTime="2020-10-30T20:34:27.8141178+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66674b08-ab75-4426-b8d8-0c2163954524">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. </Message>
+          <StackTrace>   at Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests.GetDate_Not_Seperated_By_Doubledot() in c\WorkTimes\WorkTimeTests.cs:line 42&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1e4967d-1931-41a1-9164-1687201f6940" testId="2cdb879d-0b25-6cc9-9172-d696c2e41d55" testName="Equality" computerName="dev" duration="00:00:00.0006432" startTime="2020-10-30T20:34:27.8141424+01:00" endTime="2020-10-30T20:34:27.8148689+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1e4967d-1931-41a1-9164-1687201f6940">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. </Message>
+          <StackTrace>   at Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests.Equality() in c\WorkTimes\WorkTimeTests.cs:line 52&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb09c156-7a6d-4394-bb00-48e6996125a3" testId="2f253b25-8e54-459e-2425-2e571703b31a" testName="Create_With_Three_Parameters" computerName="dev" duration="00:00:00.0003877" startTime="2020-10-30T20:34:27.9838439+01:00" endTime="2020-10-30T20:34:27.9843206+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb09c156-7a6d-4394-bb00-48e6996125a3" />
+    <UnitTestResult executionId="5ee6f388-d03f-4142-a476-61885612adfd" testId="09811664-c7af-5199-484f-de9c871a86cf" testName="End_Work" computerName="dev" duration="00:00:00.0003313" startTime="2020-10-30T20:34:27.8254226+01:00" endTime="2020-10-30T20:34:27.8258693+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ee6f388-d03f-4142-a476-61885612adfd" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Map_Domain_Object_With_Partial_Values_To_Entity" storage="unittests.dll" id="66d60b65-a73e-2910-538e-55fdb9b3074b">
+      <Execution id="4d6f9b2a-b130-4503-9494-26ef77bfd733" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Domain_Object_With_Partial_Values_To_Entity" />
+    </UnitTest>
+    <UnitTest name="GetTime_Seperated_By_Doubledot" storage="unittests.dll" id="ee6b2e84-bd99-09ae-eedd-889671a5b491">
+      <Execution id="2974b910-10ff-446a-97a2-e2f0a82d1f85" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests" name="GetTime_Seperated_By_Doubledot" />
+    </UnitTest>
+    <UnitTest name="Compare_Test" storage="unittests.dll" id="f026cb1e-b680-4f06-547c-f7c4b195726f">
+      <Execution id="081a4a36-e3e9-4592-81de-58caab58763c" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="Compare_Test" />
+    </UnitTest>
+    <UnitTest name="Compare_TaskId_Difference" storage="unittests.dll" id="3dfa55a1-9fc7-9296-1a12-4b4b74c652cf">
+      <Execution id="665bec0b-0483-4309-bcad-a101a40de0fa" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Compare_TaskId_Difference" />
+    </UnitTest>
+    <UnitTest name="Start_Work_With_Empty_WorkItem_Exception" storage="unittests.dll" id="49b68f15-acc5-1eec-f53b-ec76f7acac7c">
+      <Execution id="1ae6d0cb-f90f-4219-9d94-88db696a3529" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="Start_Work_With_Empty_WorkItem_Exception" />
+    </UnitTest>
+    <UnitTest name="Compare_Other_Activity_Test" storage="unittests.dll" id="c6a78eec-4a54-de35-c2a9-f8682c099426">
+      <Execution id="b9b94f1f-5527-4931-bf12-d224d2820842" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="Compare_Other_Activity_Test" />
+    </UnitTest>
+    <UnitTest name="Start_Work_With_Activity" storage="unittests.dll" id="7b2da00b-9c0e-9c43-9aa3-8144fb60e585">
+      <Execution id="f49f496a-1e29-49b8-90ba-a698567e6d18" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="Start_Work_With_Activity" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_With_Partial_Values_To_Domain" storage="unittests.dll" id="2bfd9ccd-6c69-35b5-61b9-6e2363e8fefd">
+      <Execution id="ad91a46f-6b86-4539-a2a5-17f28b4fd13f" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Entity_With_Partial_Values_To_Domain" />
+    </UnitTest>
+    <UnitTest name="End_Work" storage="unittests.dll" id="09811664-c7af-5199-484f-de9c871a86cf">
+      <Execution id="5ee6f388-d03f-4142-a476-61885612adfd" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="End_Work" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_With_Partial_Values_To_Domain" storage="unittests.dll" id="f82bc895-3bf4-7998-22c6-cc7e729aca4b">
+      <Execution id="cf262709-8458-4dee-8325-70711130de3a" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Entity_With_Partial_Values_To_Domain" />
+    </UnitTest>
+    <UnitTest name="Map_Domain_Object_With_Partial_Values_To_Entity" storage="unittests.dll" id="3da3570c-b73f-2c00-1833-5a9c9b9682ee">
+      <Execution id="8e084df1-a0e2-4d63-9096-a0818801e2c1" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Domain_Object_With_Partial_Values_To_Entity" />
+    </UnitTest>
+    <UnitTest name="Create_With_Two_Parameters" storage="unittests.dll" id="79e801a9-6f43-4cbc-76ea-1912832b6655">
+      <Execution id="d2640654-24e7-463e-9cae-b15c69c3d163" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Create_With_Two_Parameters" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_With_All_Values_To_Domain" storage="unittests.dll" id="6058bf8b-e23b-e2e7-2c39-f43c410bc360">
+      <Execution id="4a926f51-b9cf-4884-a681-5c14f0dd2499" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Entity_With_All_Values_To_Domain" />
+    </UnitTest>
+    <UnitTest name="EqualOp_Test" storage="unittests.dll" id="9d95d716-fce8-a379-cc04-bb0fe4800d0b">
+      <Execution id="0c9515c9-3032-4e1b-917f-cf53fa983cd8" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="EqualOp_Test" />
+    </UnitTest>
+    <UnitTest name="Create_Without_TaskId_Exception" storage="unittests.dll" id="8fb5c045-1301-a099-6103-1ba2daee9f16">
+      <Execution id="41e7c4f0-3bb4-4e85-91c4-5042fae6e2c7" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Create_Without_TaskId_Exception" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_With_All_Values_To_Domain" storage="unittests.dll" id="03951455-adfe-224f-2f6d-a95df38283e5">
+      <Execution id="f23372a3-e7f2-46ef-b791-e4adfa25a4f4" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Entity_With_All_Values_To_Domain" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_List_To_Domain" storage="unittests.dll" id="86be059c-96c2-32d8-6e2d-b2a9d3c71faf">
+      <Execution id="16d0a796-10a6-45ca-bad5-87e02ea1913d" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Entity_List_To_Domain" />
+    </UnitTest>
+    <UnitTest name="Create_With_Three_Parameters" storage="unittests.dll" id="2f253b25-8e54-459e-2425-2e571703b31a">
+      <Execution id="eb09c156-7a6d-4394-bb00-48e6996125a3" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Create_With_Three_Parameters" />
+    </UnitTest>
+    <UnitTest name="Compare_WorkItemType_Difference" storage="unittests.dll" id="1376b99c-8492-b662-a0bd-67502b72fc92">
+      <Execution id="d1f6561f-8049-4d3e-ab91-bc1d49299327" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Compare_WorkItemType_Difference" />
+    </UnitTest>
+    <UnitTest name="Now" storage="unittests.dll" id="33a2d2b2-8ee5-8a1e-c679-1cdea05cc3c7">
+      <Execution id="547a16aa-7aae-412d-8225-51f01f6eb2b1" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests" name="Now" />
+    </UnitTest>
+    <UnitTest name="Start_Work" storage="unittests.dll" id="37af4565-7c03-1a06-89bc-aeadb84b05f7">
+      <Execution id="8db74550-3925-4d52-aba3-ef3609640cd6" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="Start_Work" />
+    </UnitTest>
+    <UnitTest name="Map_Domain_List_To_Entity" storage="unittests.dll" id="7241af49-bb8d-3ffc-2b2d-703477ed9d87">
+      <Execution id="dc978d59-e9a7-4499-b52a-28af73b9ace4" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Domain_List_To_Entity" />
+    </UnitTest>
+    <UnitTest name="Map_Entity_List_To_Domain" storage="unittests.dll" id="3ceac0a5-bf3a-4fd0-e83e-d5bf7aef09e4">
+      <Execution id="90da5ecc-65b3-4947-a661-16b8e8888bda" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Entity_List_To_Domain" />
+    </UnitTest>
+    <UnitTest name="GetDate_Not_Seperated_By_Doubledot" storage="unittests.dll" id="8b53fcfa-8a18-4357-0e34-6d8cfd514115">
+      <Execution id="66674b08-ab75-4426-b8d8-0c2163954524" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests" name="GetDate_Not_Seperated_By_Doubledot" />
+    </UnitTest>
+    <UnitTest name="Map_Domain_Object_With_All_Values_To_Entity" storage="unittests.dll" id="0a36b23e-db71-7dc6-a587-ee88e03d892e">
+      <Execution id="ea3827e6-d478-4feb-944f-86485b6f4c70" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkItems.UnitTests.WorkItemDomainEntityMapperTests" name="Map_Domain_Object_With_All_Values_To_Entity" />
+    </UnitTest>
+    <UnitTest name="UnequalOp_Test" storage="unittests.dll" id="11db1ea8-34ae-b3de-5ada-9009b6f6c43b">
+      <Execution id="0114020c-6088-4e1e-8999-9c15e8a52592" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="UnequalOp_Test" />
+    </UnitTest>
+    <UnitTest name="EqualOp_Test" storage="unittests.dll" id="a675fb99-55f1-c2ee-d54d-b7b966b756df">
+      <Execution id="90d503cf-e71f-4fde-8b37-0c85e872217a" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="EqualOp_Test" />
+    </UnitTest>
+    <UnitTest name="IsEmpty_Test" storage="unittests.dll" id="0a7780b0-0631-0479-9d23-552847c6fa0a">
+      <Execution id="6142fb0b-701e-42de-a299-93648353f756" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="IsEmpty_Test" />
+    </UnitTest>
+    <UnitTest name="Equality" storage="unittests.dll" id="2cdb879d-0b25-6cc9-9172-d696c2e41d55">
+      <Execution id="a1e4967d-1931-41a1-9164-1687201f6940" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTimes.UnitTests.WorkTimeTests" name="Equality" />
+    </UnitTest>
+    <UnitTest name="UnequalOp_Test" storage="unittests.dll" id="70d69027-81b3-e89e-59b6-fb45ea75deab">
+      <Execution id="92d59a9c-03b0-4f9c-9eaa-52821f93ac8d" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkTasks.UnitTests.WorkTaskTests" name="UnequalOp_Test" />
+    </UnitTest>
+    <UnitTest name="Map_Domain_Object_With_All_Values_To_Entity" storage="unittests.dll" id="eedb9f94-fa3a-4d52-560a-958a5ec59d87">
+      <Execution id="20025dc9-edff-4735-b5d6-3a91c6479886" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Domain_Object_With_All_Values_To_Entity" />
+    </UnitTest>
+    <UnitTest name="Map_Domain_List_To_Entity" storage="unittests.dll" id="70f6c07f-5d73-c3ad-c4a2-4f2c6fd8f556">
+      <Execution id="02214618-670c-4f4f-b9e2-5ab96029d8b7" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Entities.WorkTasks.UnitTests.WorkTaskDomainEntityMapperTests" name="Map_Domain_List_To_Entity" />
+    </UnitTest>
+    <UnitTest name="Compare_Test" storage="unittests.dll" id="e944fe6c-ba81-22b1-2080-387299d4c650">
+      <Execution id="56c7188d-83a6-4baa-b56e-e22c887f9940" />
+      <TestMethod codeBase="UnitTests.dll" adapterTypeName="executor://mstestadapter/v2" className="Tracker.Core.Domain.WorkItems.UnitTests.WorkItemTests" name="Compare_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3da3570c-b73f-2c00-1833-5a9c9b9682ee" executionId="8e084df1-a0e2-4d63-9096-a0818801e2c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a675fb99-55f1-c2ee-d54d-b7b966b756df" executionId="90d503cf-e71f-4fde-8b37-0c85e872217a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee6b2e84-bd99-09ae-eedd-889671a5b491" executionId="2974b910-10ff-446a-97a2-e2f0a82d1f85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a36b23e-db71-7dc6-a587-ee88e03d892e" executionId="ea3827e6-d478-4feb-944f-86485b6f4c70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86be059c-96c2-32d8-6e2d-b2a9d3c71faf" executionId="16d0a796-10a6-45ca-bad5-87e02ea1913d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fb5c045-1301-a099-6103-1ba2daee9f16" executionId="41e7c4f0-3bb4-4e85-91c4-5042fae6e2c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37af4565-7c03-1a06-89bc-aeadb84b05f7" executionId="8db74550-3925-4d52-aba3-ef3609640cd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d95d716-fce8-a379-cc04-bb0fe4800d0b" executionId="0c9515c9-3032-4e1b-917f-cf53fa983cd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11db1ea8-34ae-b3de-5ada-9009b6f6c43b" executionId="0114020c-6088-4e1e-8999-9c15e8a52592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f026cb1e-b680-4f06-547c-f7c4b195726f" executionId="081a4a36-e3e9-4592-81de-58caab58763c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70d69027-81b3-e89e-59b6-fb45ea75deab" executionId="92d59a9c-03b0-4f9c-9eaa-52821f93ac8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70f6c07f-5d73-c3ad-c4a2-4f2c6fd8f556" executionId="02214618-670c-4f4f-b9e2-5ab96029d8b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6a78eec-4a54-de35-c2a9-f8682c099426" executionId="b9b94f1f-5527-4931-bf12-d224d2820842" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bfd9ccd-6c69-35b5-61b9-6e2363e8fefd" executionId="ad91a46f-6b86-4539-a2a5-17f28b4fd13f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1376b99c-8492-b662-a0bd-67502b72fc92" executionId="d1f6561f-8049-4d3e-ab91-bc1d49299327" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ceac0a5-bf3a-4fd0-e83e-d5bf7aef09e4" executionId="90da5ecc-65b3-4947-a661-16b8e8888bda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e944fe6c-ba81-22b1-2080-387299d4c650" executionId="56c7188d-83a6-4baa-b56e-e22c887f9940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66d60b65-a73e-2910-538e-55fdb9b3074b" executionId="4d6f9b2a-b130-4503-9494-26ef77bfd733" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79e801a9-6f43-4cbc-76ea-1912832b6655" executionId="d2640654-24e7-463e-9cae-b15c69c3d163" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7241af49-bb8d-3ffc-2b2d-703477ed9d87" executionId="dc978d59-e9a7-4499-b52a-28af73b9ace4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03951455-adfe-224f-2f6d-a95df38283e5" executionId="f23372a3-e7f2-46ef-b791-e4adfa25a4f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b2da00b-9c0e-9c43-9aa3-8144fb60e585" executionId="f49f496a-1e29-49b8-90ba-a698567e6d18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a7780b0-0631-0479-9d23-552847c6fa0a" executionId="6142fb0b-701e-42de-a299-93648353f756" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33a2d2b2-8ee5-8a1e-c679-1cdea05cc3c7" executionId="547a16aa-7aae-412d-8225-51f01f6eb2b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dfa55a1-9fc7-9296-1a12-4b4b74c652cf" executionId="665bec0b-0483-4309-bcad-a101a40de0fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eedb9f94-fa3a-4d52-560a-958a5ec59d87" executionId="20025dc9-edff-4735-b5d6-3a91c6479886" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f82bc895-3bf4-7998-22c6-cc7e729aca4b" executionId="cf262709-8458-4dee-8325-70711130de3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6058bf8b-e23b-e2e7-2c39-f43c410bc360" executionId="4a926f51-b9cf-4884-a681-5c14f0dd2499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49b68f15-acc5-1eec-f53b-ec76f7acac7c" executionId="1ae6d0cb-f90f-4219-9d94-88db696a3529" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b53fcfa-8a18-4357-0e34-6d8cfd514115" executionId="66674b08-ab75-4426-b8d8-0c2163954524" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cdb879d-0b25-6cc9-9172-d696c2e41d55" executionId="a1e4967d-1931-41a1-9164-1687201f6940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f253b25-8e54-459e-2425-2e571703b31a" executionId="eb09c156-7a6d-4394-bb00-48e6996125a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09811664-c7af-5199-484f-de9c871a86cf" executionId="5ee6f388-d03f-4142-a476-61885612adfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Ergebnisse nicht in einer Liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="37" executed="34" passed="29" failed="5" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Der Test "GetTime_Seperated_By_Doubledot" wurde im Testlauf übersprungen.&#xD;
+Der Test "GetDate_Not_Seperated_By_Doubledot" wurde im Testlauf übersprungen.&#xD;
+Der Test "Equality" wurde im Testlauf übersprungen.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

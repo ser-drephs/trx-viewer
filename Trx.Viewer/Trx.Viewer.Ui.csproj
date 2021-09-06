@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+	<AssemblyName>Trx.Viewer.Ui</AssemblyName>
+	<OutputPath>$(SolutionDir)bin</OutputPath>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.9" />
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
+	<PackageReference Include="MvvmLightStd10" Version="5.4.1.2" />
+	<PackageReference Include="Serilog" Version="2.10.0" />
+	<PackageReference Include="Serilog.Extensions.Hosting" Version="3.1.0" />
+	<PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+	<PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+	<PackageReference Include="Serilog.Sinks.Debug" Version="1.0.1" />
+	<PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+	<PackageReference Include="System.IO.Abstractions" Version="12.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
